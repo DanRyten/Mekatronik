@@ -1,17 +1,6 @@
-%load all the variabels and functions needed for simulation
-clear,clc;
-
-Battery_max_charge =  7400; %7.4kwh
-weight = 1095; %kg 
-passanger = 60; %kg of avrage man in asia/africa
-%Torque_mac = 69.2; %Nm -> use simulink motor with
-
-
-%%% old idea -> was just simulation based not using physical systems
- % %-------------------- Battery variabels --------------------%
-% Is_chargin = 1; %bool if the system charges or not
-% Charge_rate = 10; %10Amph ;
-% Charge_loss_rate = 0.2;% amount of amp that get lost during chargin for heat and so on.
-% Battery_current_charge = 0;
-% Batter_max_charge = 60;%60Amph;
-% 
+Payload 380 kg
+Passenger 6 seats
+Max Speed 70 km/h
+Turning Radius 3.8 m
+Distance 80-100 km
+harging time (DC) 30min

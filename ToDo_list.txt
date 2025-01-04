@@ -1,0 +1,20 @@
+to do
+- skriva 3 sidor
+	- Val av lämplig lösning:
+	- Produktion av en detaljerad design
+	- Produktion av arbetsritningar
+
+- Skapa en matematisk systemmodell
+- Simulera denna modell baserat på produktkrav och mål för det mekatroniska systemet.
+- Definiera olika tester för den mekatroniska simuleringen och ange tydligt syftet med varje test och varför det genomförs
+- Konstruera en teoretisk systemdesign och motivera den med hänsyn till resultaten från modellen och simuleringen.
+- samt en demonstration i form av en 10 minuters presentation under projektredovisningen.
+
+- feedback inl 1
+	- krav lista
+
+Simulink
+- bas model
+- spex (vikt,volt, mm)
+- Criuse controller
+	- simulering för CC
