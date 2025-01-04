@@ -1,6 +1,0 @@
-Battery charge funktions: https://www.electricaltechnology.org/2013/03/easy-charging-time-formula-for.html
-
-Etuktuk vi kommer simulera: https://www.enconlab.com/etuktuk/images/images_etuktuk/supplier_etuktuk/MuV_Nex1_lowRes_v01.pdf
-Motor datasheet: https://www.agromatic.de/fileadmin/download/Anleitungen/BA_NEx_EN_rev.03.pdf
-
-average weight of man: https://en.wikipedia.org/wiki/Human_body_weight
