@@ -20,3 +20,5 @@ Wheel_radius = scaler*0.2;
 
 slope = -10; %degrees ie 90 = max
 Slope_force = Weight*sin(slope*(pi/180)); %slope force N
+
+desired_speed = 1;
