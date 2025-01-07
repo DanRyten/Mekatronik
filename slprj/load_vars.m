@@ -6,11 +6,12 @@ clear,clc;
 gravitation = 9.82;
 current_motor_watt = 331.8;
 real_motor_watt = 3000;
-scaler = 1;%current_motor_watt/real_motor_watt;
+scaler =  current_motor_watt/real_motor_watt;
 
 % battery
 battery_voltage = 60; %volt
-battery_volt = scaler*battery_voltage;
+%max current -> 331.8/60 = 5.63amp
+battery_volt = battery_voltage;
 current_limiting_resistor = scaler*battery_voltage/(real_motor_watt/battery_voltage); %V/Amp = ohm
 
 %tuk tuk const
