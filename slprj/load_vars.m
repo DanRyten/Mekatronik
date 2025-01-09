@@ -3,6 +3,7 @@ clear,clc;
 
 
 %const
+Debuncer_bool = 0;
 gravitation = 9.82;
 current_motor_watt = 331.8;
 real_motor_watt = 3000;
