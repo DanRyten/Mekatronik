@@ -18,7 +18,7 @@ current_limiting_resistor = (battery_voltage/(real_motor_watt/battery_voltage));
 Weight = scaler * (380 + 72.2); % tuktuk and driver
 
 %translation const
-Gear_box_ratio = 5;
+Gear_box_ratio = 10/3; % web states 15:50
 Wheel_radius = 0.2;%*scaler;
 
 slope = -10; %degrees ie 90 = max

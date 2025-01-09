@@ -21,3 +21,6 @@ around 20Ah
 
 https://www.adilca.com/BRAKING_FORCE.pdf
 break force
+
+https://www.maxiscoot.com/en/scooter/transmission/gearboxes/?srsltid=AfmBOopisYJFWFS5erjoPN-z7d77kjjgYTxH51wiA42x6uC6LSdE-tO7
+gear box ratio
