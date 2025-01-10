@@ -11,7 +11,7 @@ scaler =  current_motor_watt/real_motor_watt;
 
 % battery
 battery_voltage = 60; %volt
-%max current -> 331.8/60 = 5.63amp -> 
+max_current  = 331.8/60;
 battery_volt = battery_voltage;
 current_limiting_resistor = (battery_voltage/(real_motor_watt/battery_voltage));%*scaler; %V/Amp = ohm
 
@@ -22,5 +22,6 @@ Weight = scaler * (380 + 72.2); % tuktuk and driver
 Gear_box_ratio = 10/3; % web states 15:50
 Wheel_radius = 0.2;%*scaler;
 
-slope = -10; %degrees ie 90 = max
+slope = -10; %degrees 
+max_slope = 20;
 desired_speed = 1;
