@@ -1,6 +1,9 @@
 % vars
 clear,clc;
 
+%%
+peoples = 7; % 1-7
+
 
 %const
 Debuncer_bool = 0;
@@ -16,7 +19,8 @@ battery_volt = battery_voltage;
 current_limiting_resistor = battery_voltage/(current_motor_watt/battery_voltage);%*scaler; %V/Amp = ohm
 
 %tuk tuk const
-Weight = scaler * (380 + 72.2); % tuktuk and driver
+Weight_of_tt = scaler *380;
+Weight = Weight_of_tt + scaler*(72.2*peoples); % tuktuk and driver
 
 %translation const
 Gear_box_ratio = 10/3; % web states 15:50
