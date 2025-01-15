@@ -3,7 +3,7 @@ clear,clc;
 
 %%
 peoples = 7; % 1-7
-
+starting_time = 1000;
 
 %const
 Debuncer_bool = 0;
